@@ -1,6 +1,13 @@
 module.exports = {
   siteMetadata: {
+    siteTitle: `Adrian Zawadzki Portfolio`,
     siteTitleAlt: `Adrian Zawadzki - Frontend Developer`,
+    siteHeadline: `Aspiring frontend developer`,
+    siteUrl: `https://personal-gatsby-site.vercel.app/`,
+    siteDescription: `One-Page frontend developer portfolio`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `Adrian Zawadzki <adrian.zawadzki@outlook.com>`,
   },
   plugins: [
     `@lekoarts/gatsby-theme-cara`,
