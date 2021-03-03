@@ -30,7 +30,7 @@ const Footer = () => {
           a: { color: `text` },
         }}
       >
-        <div sx={{ mx: 1 }}>Design made with the amazing Gatsby Theme</div> 
+        <div sx={{ mx: 1 }}>Design with Gatsby Theme</div> 
       </Flex>
     </Box>
   )
