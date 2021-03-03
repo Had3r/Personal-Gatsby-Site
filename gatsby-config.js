@@ -1,24 +1,17 @@
-require(`dotenv`).config({
-  path: `.env`,
-})
-
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Adrian Zawadzki - Frontend Developer Portfolio`,
+    siteTitle: `Adrian Zawadzki Portfolio`,
+    siteTitleAlt: `Adrian Zawadzki - Frontend Developer`,
+    siteHeadline: `Aspiring frontend developer`,
+    siteUrl: `https://personal-gatsby-site.vercel.app/`,
+    siteDescription: `One-Page portfolio site`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    banner: `https://personal-gatsby-site.vercel.app/banner.jpg`,
+    author: `Adrian Zawadzki <adrian.zawadzki@outlook.com>`,
   },
   plugins: [
-    {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      options: {},
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
+    `@lekoarts/gatsby-theme-cara`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -44,15 +37,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-gatsby-cloud`,
-    `gatsby-plugin-netlify`,
-    shouldAnalyseBundle && {
-      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
-      options: {
-        analyzerMode: `static`,
-        reportFilename: `_bundle.html`,
-        openAnalyzer: false,
-      },
-    },
   ].filter(Boolean),
 }
