@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Adrian Zawadzki - Frontend Developer Portfolio`,
+    siteTitleAlt: `Adrian Zawadzki - Frontend Developer`,
   },
   plugins: [
     `@lekoarts/gatsby-theme-cara`,
