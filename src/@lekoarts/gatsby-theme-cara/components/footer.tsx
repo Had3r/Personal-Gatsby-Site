@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Box, Flex, useColorMode, jsx } from "theme-ui"
+import { Box, useColorMode, jsx } from "theme-ui"
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -19,19 +19,6 @@ const Footer = () => {
         {isDark ? `Light` : `Dark`}
       </button>
       Copyright &copy; {new Date().getFullYear()}. All rights reserved.
-      <br />
-      <Flex
-        sx={{
-          justifyContent: `center`,
-          alignItems: `center`,
-          mt: 3,
-          color: `text`,
-          fontWeight: `semibold`,
-          a: { color: `text` },
-        }}
-      >
-        <div sx={{ mx: 1 }}>Design with Gatsby Theme</div> 
-      </Flex>
     </Box>
   )
 }
