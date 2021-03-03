@@ -4,9 +4,10 @@ module.exports = {
     siteTitleAlt: `Adrian Zawadzki - Frontend Developer`,
     siteHeadline: `Aspiring frontend developer`,
     siteUrl: `https://personal-gatsby-site.vercel.app/`,
-    siteDescription: `One-Page frontend developer portfolio`,
+    siteDescription: `One-Page portfolio site`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
+    banner: `https://personal-gatsby-site.vercel.app/banner.jpg`,
     author: `Adrian Zawadzki <adrian.zawadzki@outlook.com>`,
   },
   plugins: [
