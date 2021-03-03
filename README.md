@@ -15,4 +15,4 @@ Read more <a href="https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shado
 
 <hr />
 
-<sub><sup>Feel free to clone and modify this repository in any way you like. If you have any questions, <a href="mailto: adrian.zawadzki@outlook.com">write</a> to me, I will be happy to help.</sup></sub>
+<sup>Feel free to clone and modify this repository in any way you like. If you have any questions, <a href="mailto: adrian.zawadzki@outlook.com">write</a> to me, I will be happy to help.</sup>
